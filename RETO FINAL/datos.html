@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datos Históricos – Energía Justa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Datos Históricos 2000 – 2021</h1>
+  </header>
+
+  <div class="layout-grid">
+    <aside class="sidebar">
+      <h2>Menú de Navegación</h2>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="datos.html" class="activo">Datos Históricos</a></li>
+        <li><a href="hidroelectrica.html">Hidroeléctrica</a></li>
+        <li><a href="solar.html">Solar</a></li>
+        <li><a href="eolica.html">Eólica</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </aside>
+
+    <main class="portafolio">
+      <section class="item">
+        <h2>📊 Introducción</h2>
+        <p>Colombia ha tenido una participación significativa de energías limpias en su matriz energética. A continuación, se presenta un resumen con datos reales desde el año 2000 hasta 2021.</p>
+      </section>
+
+      <section class="item">
+        <h2>📅 Producción de Energía Renovable por Año</h2>
+        <p>Los valores representan producción energética en teravatios-hora (TWh), de acuerdo a fuentes oficiales.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Hidroeléctrica</th>
+              <th>Solar</th>
+              <th>Eólica</th>
+              <th>% Renovables</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>2000</td><td>31.75</td><td>0.01</td><td>0</td><td>75.7%</td></tr>
+            <tr><td>2005</td><td>39.4</td><td>0.01</td><td>0.05</td><td>80.3%</td></tr>
+            <tr><td>2010</td><td>40.0</td><td>0.01</td><td>0.04</td><td>71.7%</td></tr>
+            <tr><td>2015</td><td>47.94</td><td>0.01</td><td>0.07</td><td>64.3%</td></tr>
+            <tr><td>2020</td><td>48.44</td><td>0.19</td><td>0.01</td><td>64.7%</td></tr>
+            <tr><td>2021</td><td>58.19</td><td>0.32</td><td>0.06</td><td>73.6%</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="item">
+        <h2>🧠 Análisis general</h2>
+        <p>
+          Se observa un crecimiento paulatino en la producción hidroeléctrica y un desarrollo incipiente pero constante en las fuentes solar y eólica. Esto evidencia los esfuerzos del país por diversificar su matriz energética, especialmente después del 2015.
+        </p>
+      </section>
+
+      <section class="item dato-clave">
+        📌 <strong>Dato clave:</strong> En 2021, Colombia logró su mayor producción hidroeléctrica registrada en los últimos 20 años, con <strong>58.19 TWh</strong>.
+      </section>
+
+      <section class="item">
+       <button onclick="mostrarOcultar()">Ver más</button>
+        <div id="infoExtra" style="display: none; margin-top: 1em;">
+          <p>Además de las tres fuentes principales, Colombia ha mostrado interés en explorar otras opciones como la biomasa y la geotermia. Aunque aún están en etapa piloto, podrían representar nuevas oportunidades energéticas en el mediano plazo.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>Creado por el equipo Dinamita – 2025</p>
+  </footer>
+
+  <script src="js/ver.js"></script>
+</body>
+</html>
